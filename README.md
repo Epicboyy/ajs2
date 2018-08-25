@@ -4,7 +4,6 @@ Line BOT PROTECT PY3 ANTI JS V2 AGUSTUS 2018
 
 How to Install Bot :
 ------
-HEADER CHROME
 
 C9 SERVER/ VPS :
 - `sudo apt-get update -y`
