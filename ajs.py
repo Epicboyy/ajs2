@@ -11,41 +11,41 @@ from googletrans import Translator
 import youtube_dl
 #ANTIJS_V2
 cl = LineClient()
-#cl = LineClient(authToken='ISI TOKENMU  DISINI')
+#cl = LineClient(authToken='token')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 ki = LineClient()
-#ki = LineClient(authToken='ISI TOKENMU  DISINI')
+#ki = LineClient(authToken='token')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 kk = LineClient()
-#kk = LineClient(authToken='ISI TOKENMU  DISINI')
+#kk = LineClient(authToken='token')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 kc = LineClient()
-#kc = LineClient(authToken='ISI TOKENMU  DISINI')
+#kc = LineClient(authToken='token')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 sw = LineClient()
-#sw = LineClient(authToken='ISI TOKENMU  DISINI')
+#sw = LineClient(authToken='token')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 
 poll = LinePoll(cl)
 call = cl
-creator = ["ud296655acef67cbd5e8208e63629f78b"]
-owner = ["ud296655acef67cbd5e8208e63629f78b"]
-admin = ["ud296655acef67cbd5e8208e63629f78b"]
-staff = ["ud296655acef67cbd5e8208e63629f78b"]
+creator = ["ufe1707ae9b2ff7ab61505795b7995440"]
+owner = ["ufe1707ae9b2ff7ab61505795b7995440"]
+admin = ["ufe1707ae9b2ff7ab61505795b7995440"]
+staff = ["ufe1707ae9b2ff7ab61505795b7995440"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
