@@ -22,7 +22,7 @@ C9 SERVER/ VPS :
 - `sudo pip3 install wikipedia`
 - `sudo pip3 install tweepy`
 - `sudo pip3 install youtube_dl`
-- `git clone https://github.com/arifistifik/ajs2`
+- `git clone https://github.com/Epicboyy/ajs2`
 - `cd ajs2`
 - `python ajs.py`
 
@@ -43,7 +43,7 @@ INSTALL Di TERMUX :
 - `pip3 install wikipedia`
 - `pip3 install youtube_dl`
 - `pip3 install tweepy`
-- `git clone https://github.com/arifistifik/ajs2`
+- `git clone https://github.com/Epicboyy/ajs2`
 - `cd ajs2`
 - `python3 ajs.py`
 
