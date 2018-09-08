@@ -129,11 +129,11 @@ wait = {
     "welcomeOn":False,
     "sticker":False,
     "selfbot":True,
-    "mention":"SINI KAK GABUNG CHAT AJA 😊",
-    "Respontag":"SEKAARNG TAG BESOK JATUH CINTA",
-    "welcome":"Selamat datang & betah",
-    "comment":"Like like & like by ARIFISTIFIK",
-    "message":"Terimakasih sudah add saya 😃",
+    "mention":"我是莫言開發的防翻\n有事請找作者",
+    "Respontag":"我是莫言開發的防翻\n有事請找作者",
+    "welcome":"安安",
+    "comment":"Like like & like",
+    "message":"安安 感謝您加我好友(๑´ㅂ`๑)\n我的作者:©莫言♡™\nhttps://line.me/ti/p/4-LFlTx31f\n",
     }
 
 read = {
@@ -159,7 +159,7 @@ Setmain = json.load(Setbot)
 
 mulai = time.time()
 
-tz = pytz.timezone("Asia/Jakarta")
+tz = pytz.timezone("Asia/Taiwan")
 timeNow = datetime.now(tz=tz)
 
 def restart_program(): 
@@ -174,7 +174,7 @@ def waktu(secs):
     mins, secs = divmod(secs,60)
     hours, mins = divmod(mins,60)
     days, hours = divmod(hours, 24)
-    return '%02d Hari %02d Jam %02d Menit %02d Detik' % (days, hours, mins, secs)
+    return '%02d 天 %02d 小時 %02d 分鐘 %02d 秒' % (days, hours, mins, secs)
 
 def runtime(secs):
     mins, secs = divmod(secs,60)
